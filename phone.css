@@ -1,0 +1,16 @@
+.container {
+    grid-template-areas:
+      "navbar navbar navbar navbar"
+      "section section section section"
+      "aside aside aside aside"
+      "footer footer footer footer";
+  }
+  #lol{
+    padding-top: 20px;
+  }
+  #all::before{
+    height: 1300px;
+  }
+  .images{
+    flex-wrap: wrap;
+  }

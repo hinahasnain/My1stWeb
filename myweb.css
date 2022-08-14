@@ -1,0 +1,192 @@
+
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+          "navbar navbar navbar navbar"
+          "section section section aside"
+          "footer footer footer footer";
+      }
+
+       /* @media only screen and (max-width: 300px) {
+        .container { 
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        aside {
+          display: none;
+         } 
+        span {
+          display: block;
+          text-align: center;
+        }
+        .menu {
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        }
+      } */
+      /* @media only screen and (min-width: 300px) and (max-width: 500px) {
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        .menu {
+          margin: 0px 10px 0px 3px;
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        } */
+        /* aside{
+          background-image: url('../pancake.jpg') no-repeat center center/cover;
+          position: absolute;
+          height: 700px;
+          z-index: -1;
+          top: 700px;
+          left: 0;
+          opacity: 0.4;
+        } */
+        
+      
+      /* @media only screen and (min-width: 500px) and (max-width: 800px) {
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section section"
+            "aside aside aside aside"
+            "footer footer footer footer";
+        }
+        .menu {
+          margin: 0px 10px 0px 3px;
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        }
+        aside::before{
+        content:"" ;
+        background: url("../pancake.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 710px;
+        width: 100%;
+        z-index: -1;
+        top: 707px;
+        left: 0;
+        opacity: 0.4;
+        }
+      }  */
+      /* @media only screen and (min-width: 800px) {
+        .container {
+          grid-template-areas:
+            "navbar navbar navbar navbar"
+            "section section section aside"
+            "footer footer footer footer";
+        }
+        .menu {
+          margin: 0px 54px 0px 1px;
+          font-size: 1.1rem;
+          text-decoration: none;
+          color: white;
+        }
+      } */
+      .menu {
+        margin: 0px 54px 0px 1px;
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: white;
+      }
+      /* aside::before {
+        content:"" ;
+        background: url("../pancake.jpg") no-repeat center center/cover ;
+        position: absolute;
+        height: 690px;
+        width: 550px;
+        z-index: -1;
+        top: 707px;
+        left: 0;
+        opacity: 0.4;
+        } */
+      .bdr {
+        padding: 0px 23px;
+      }
+      #navbar {
+        background-color: black;
+         position: sticky;
+         top: 0px;
+        padding: 17px 35px;
+        border-radius: 5px;
+        opacity: 0.5;
+      }
+      #all::before {
+        content: "";
+        background: url("../pancake.jpg") no-repeat center center/cover;
+        position: absolute;
+        height: 770px;
+        width: 100vw;
+        z-index: -1;
+        top: 7px;
+        left: 0;
+        opacity: 0.4;
+      }
+      #img1 {
+        height: 24%;
+        width: 24%;
+      }
+      #img2 {
+        width: 24%;
+      }
+      #img3 {
+        width: 24%;
+      }
+      .images {
+        padding: 11px 22px;
+      }
+      #contact-form {
+        display: flex;
+        align-items: right;
+        justify-content: right;
+        padding: 0px 20px;
+        font-size: 0.9rem;
+        font-family: cursive;
+      }
+      #contact-form input,
+      #contact-form textarea {
+        width: 81%;
+        padding: 0.1rem;
+      }
+
+      nav {
+        grid-area: navbar;
+      }
+      section {
+        grid-area: section;
+        height: 470px;
+        width: 400px;
+        margin: 66px 30px;
+      }
+      section p {
+        border: 2px solid black;
+        text-align: center;
+      }
+      section h2 {
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 1.5rem;
+      }
+      aside {
+        grid-area: aside;
+      }
+      footer {
+        grid-area: footer;
+        background-color: black;
+        color: white;
+        display: inline;
+        float: right;
+      }
+    

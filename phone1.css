@@ -1,0 +1,15 @@
+#all::before{
+    /* height: 2500px; */
+    width: 500px;
+}
+#lol{
+     padding-top: 5px;
+     margin: 0px;
+}
+.menu{
+    display: block;
+    text-align: center;
+}
+.images{
+     padding: 5px 5px;
+}
